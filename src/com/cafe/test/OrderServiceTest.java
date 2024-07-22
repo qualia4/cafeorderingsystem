@@ -1,5 +1,3 @@
-package com.cafe.test;
-
 import com.cafe.entities.Order;
 import com.cafe.entities.PaymentMethod;
 import com.cafe.entities.Product;

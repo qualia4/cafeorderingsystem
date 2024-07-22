@@ -1,5 +1,3 @@
-package com.cafe.test;
-
 import com.cafe.entities.Product;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,5 +1,3 @@
-package com.cafe.test;
-
 import com.cafe.entities.User;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -28,4 +26,12 @@ public class UserTests {
         user.setName("New Name");
         assertEquals("New Name", user.getName());
     }
+
+    @Test
+    public void testSetHashedPassword() {
+        User user = new User("test@example.com", "Test User", "hashedPassword");
+        user.setHashedPassword("newHashedPassword");
+        assertEquals("newHashedPassword", user.getHashedPassword());
+    }
+
 }

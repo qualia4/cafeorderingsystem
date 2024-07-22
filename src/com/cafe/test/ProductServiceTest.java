@@ -1,5 +1,3 @@
-package com.cafe.test;
-
 import com.cafe.entities.Product;
 import com.cafe.services.ProductService;
 import org.junit.jupiter.api.BeforeEach;
